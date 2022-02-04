@@ -1,0 +1,120 @@
+body{
+    background-color:#1a1a1a;
+    color:white;
+     min-width:280px;
+    }
+    /* Used for Mobile*/
+    .tittle{
+      font-family: 'Lobster', cursive;
+      font-weight:bold;
+      font-size:30px;
+      text-align:center;
+      justify-content:center;
+      line-height:1.8;
+      position:fixed;
+      top:0;
+      background-color:#333333;
+      width:100%;
+      min-width:250px;
+      
+    }
+    #navbar{
+      min-width:250px;
+      width:100%;
+      position:absolute;
+      max-height:240px;
+      background-color:grey;
+      text-align:center;
+      font-family: 'Viaoda Libre', cursive;
+      border-bottom:1.5px solid yellow;
+      overflow-y: scroll;
+      min-width:250px;
+      margin-left:-10px;
+      }
+    .nav-link{
+      text-decoration:none;
+      color:black;
+     
+    }
+    .index{
+      line-height:2rem;
+      list-style:none;
+      font-family: 'Staatliches', cursive;
+      font-size:20px;
+      margin-top:45px;
+      
+    }
+    nav>ul>li{
+      border-bottom:1px solid;
+    }
+    main{
+      padding-top:250px;
+    }
+    section{
+      margin-top:20px;
+    }
+    main>section>header{
+      font-family: 'Staatliches', cursive;
+      font-size:30px;
+      text-align:center;
+    }
+    code{
+    display:block;
+      background-color:#666666;
+      border-left:5px solid purple;
+      margin:5px 5px 5px 0px;
+      padding-left:5px;
+      word-break:normal;
+      word-wrap:normal;
+      line-height:2;
+      border-radius:0 7px 7px 0;
+    }
+    section>article>ul>li>a{
+      text-decoration:none;
+      color:white;
+      font-family: 'Roboto Mono', monospace;
+     }
+    section>article>ul>li>a:hover{
+      background-color:green;
+    }
+    /*For Tablets,Laptops & Desktops*/
+    @media (min-width:650px){
+      
+      #navbar{
+        position:fixed;
+        justify-content:left;
+        float:left;
+        max-height:100%;
+        width:290px;
+        left:0;
+        }
+      .tittle{
+        margin-left:0;
+        width:290px;
+      }
+      
+      .nav-link{
+        line-height:60px;
+        width:100%;
+        
+      }
+      body{
+        background-color:#1a1a1a;
+      }
+      main{
+       padding-top:0px;
+        padding-left:280px;
+      }
+      code{
+        width:80%;
+      }
+      .nav-link:hover{
+        color:white;
+      }
+      
+    }
+    @media(min-width:1000px){
+      code{
+        width:50%;
+      }
+    }
